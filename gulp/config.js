@@ -10,7 +10,7 @@ module.exports = {
   },
   sass: {
     src: src + "/sass/*.{sass,scss}",
-    dest: dest,
+    dest: dest+"/css",
     settings: {
       indentedSyntax: false, // Enable .sass syntax!
       imagePath: '/images' // Used by the image-url helper
@@ -21,7 +21,7 @@ module.exports = {
     dest: dest + "/images"
   },
   markup: {
-    src: src + "/htdocs/**",
+    src: src + "/**/**.html",
     dest: dest
   },
   browserify: {
@@ -29,7 +29,7 @@ module.exports = {
     // bundle config in the list below
     bundleConfigs: [{
       entries: src + '/javascript/page.js',
-      dest: dest,
+      dest: dest+'/javascript',
       outputName: 'page.js',
       // list of externally available modules to exclude from the bundle
       external: []
