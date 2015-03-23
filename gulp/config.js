@@ -24,17 +24,22 @@ module.exports = {
     src: src + "/**/**.html",
     dest: dest
   },
-  browserify: {
-    // A separate bundle will be generated for each
-    // bundle config in the list below
-    bundleConfigs: [{
-      entries: src + '/javascript/page.js',
-      dest: dest+'/javascript',
-      outputName: 'page.js',
-      // list of externally available modules to exclude from the bundle
-      external: []
-    }]
+  typescript: {
+    src: src + "/typescript/**.ts",
+    dest: dest + "/javascript",
+    destCompiled: dest + "/typescript"
   },
+  //browserify: {
+  //  // A separate bundle will be generated for each
+  //  // bundle config in the list below
+  //  bundleConfigs: [{
+  //    entries: src + '/javascript/page.js',
+  //    dest: dest+'/javascript',
+  //    outputName: 'page.js',
+  //    // list of externally available modules to exclude from the bundle
+  //    external: []
+  //  }]
+  //},
   production: {
     cssSrc: dest + '/*.css',
     jsSrc: dest + '/*.js',
