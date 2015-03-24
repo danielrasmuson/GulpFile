@@ -25,7 +25,7 @@ module.exports = {
     dest: dest
   },
   typescript: {
-    src: src + "/typescript/**.ts",
+    src: src + "/typescript/**/**.ts",
     dest: dest + "/javascript",
     destCompiled: dest + "/typescript"
   },
