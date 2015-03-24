@@ -1,0 +1,20 @@
+{
+  "name": "GulpFile",
+  "main": "GulpFile.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/danielrasmuson/GulpFile",
+  "authors": [
+    "Daniel Rasmuson <dan123911@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.2.6"
+  }
+}
