@@ -1,24 +1,18 @@
-export interface Animal {
+interface Animal {
     name(): void;
 }
 
-export class Elephant implements Animal {
-
+class Elephant implements Animal {
     constructor() {
-
     }
-
     public name() {
         console.log("Elephant");
     }
 }
 
-export class Horse implements Animal {
-
+class Horse implements Animal {
     constructor() {
-
     }
-
     public name() {
         console.log("Horse");
     }
