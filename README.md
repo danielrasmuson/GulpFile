@@ -6,3 +6,4 @@ I've added/changed
 - javascript --> typescript
 - file-include https://www.npmjs.com/package/gulp-file-include
 - help https://www.npmjs.com/package/gulp-task-listing
+- added bower src https://www.npmjs.com/package/gulp-bower-src
