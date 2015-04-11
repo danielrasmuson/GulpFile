@@ -1,5 +1,6 @@
 var dest = "./build";
 var src = './src';
+var database = './Assets/database';
 
 module.exports = {
   browserSync: {
@@ -44,5 +45,9 @@ module.exports = {
     cssSrc: dest + '/*.css',
     jsSrc: dest + '/*.js',
     dest: dest
+  },
+  firebase: {
+    url: "",
+    databasePath: database + '/all'
   }
 };
