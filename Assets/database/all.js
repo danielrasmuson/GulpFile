@@ -1,3 +1,1 @@
-module.exports = {
-    someData: [1,3,4]
-};
+module.exports = {"someData":[1,3,4]};
